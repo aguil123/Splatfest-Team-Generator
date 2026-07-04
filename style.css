@@ -1,0 +1,115 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Luckiest Guy', cursive;
+
+}
+/*header card section */
+.card{
+    text-align: center;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    margin: 0;
+    background-color: lightyellow;
+    font-size: 20px
+    
+
+}
+
+
+.section{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    margin: 0;
+}
+
+h1{
+    color: rgb(82, 82, 82);
+}
+
+p{
+    color: rgb(82, 82, 82);
+}
+
+header img{
+    width: 400px;
+    height: auto;
+    margin-top: 0px;
+}
+
+.Allteams{
+     text-align: center;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    margin: 0;
+}
+
+.Allteams img{
+    width:700px;
+    height: auto;
+    
+
+}
+
+
+
+
+#pic, .pic {
+    display: none;
+}
+
+/* match HTML which uses .pics wrapper */
+.pics {
+    display: none;
+}
+
+/* main combined image centered */
+#teams-image {
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    height: auto;
+    max-width: 100%;
+}
+
+/* when a single team is selected, make the main image smaller */
+.team-selected {
+    width: 300px !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto !important;
+}
+
+.Teampics {
+    text-align: center;
+    width: 100%;
+}
+
+
+
+#team-generator{
+    padding: 10px 16px;
+    background-color: #6a4caf;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: clamp(0.95rem, 2vw, 1rem);
+    min-width: 140px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#team-generator:hover{
+    background-color: #3a2468;
+}
